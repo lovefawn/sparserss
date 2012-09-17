@@ -48,6 +48,13 @@
                 android:background="#7C000000"
                 android:src="@android:drawable/ic_media_previous"/>
 
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.06"
+                android:text="" />
+
             <ImageButton
                 android:id="@+id/url_button"
                 android:layout_width="wrap_content"
@@ -56,6 +63,14 @@
                 android:background="#7C000000"
                 android:src="@android:drawable/ic_menu_view" />
 
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.06"
+                android:text="" />
+            
+            
             <ImageButton 
                 android:layout_height="fill_parent"
                 android:id="@+id/play_button"
@@ -63,11 +78,18 @@
                 android:background="#7C000000"
                 android:src="@android:drawable/ic_media_play"/>
 
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="0.10"
+                android:text="" />
+            
             <ImageButton
                 android:id="@+id/next_button"
                 android:layout_width="wrap_content"
                 android:layout_height="fill_parent"
-                android:layout_weight="0.3"
+                android:layout_weight="0.03"
                 android:background="#7C000000"
                 android:src="@android:drawable/ic_media_next" />
 

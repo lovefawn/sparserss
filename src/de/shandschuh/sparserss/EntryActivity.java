@@ -307,7 +307,7 @@ public class EntryActivity extends Activity {
 							}
 						} else if (velocityX < -800) {
 							if (nextButton.isEnabled()) {
-								nextEntry(true);
+							//	nextEntry(true);
 							}
 						}
 					}
@@ -387,10 +387,11 @@ public class EntryActivity extends Activity {
 	
 	private void showButtons() {
 		buttonPanel.setVisibility(View.VISIBLE);
+//		buttonPanel.setVisibility(View.INVISIBLE);
 		
 		if (buttonHideTask != null) {
 			buttonHideTask.cancel();
-		}
+			}
 		buttonHideTask = generateHideTimerTask();
 		handler.postDelayed(buttonHideTask, 2000);
 	}
